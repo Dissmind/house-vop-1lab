@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    background: #242b33;
+}
+
+.block {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main {
+
+}
+
+.header {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-img {
+    width: 134px;
+}
+
+.header .top .col {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.header .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .links a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: white;
+    text-decoration: none;
+}
+.header .links a:hover {
+    text-decoration: underline;
+}
+.header .links a:visited {
+    color: white;
+}
+
+
+.big-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:
+            linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%),
+            url(image/header-bg.png);
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.big-text .text {
+    margin-bottom: 10%;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin: 0;
+}
+
+
+/*********************************/
+/*********** Nav-Panel ***********/
+/*********************************/
+
+.nav-panels {
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-panels .panels {
+    width: 20%;
+}
+
+.nav-panels .panels-container {
+    display: flex;
+}
+
+.nav-panels .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 40px 30px 30px;
+}
+
+.nav-panels .title .text {
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nav-panels .icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-panels .icon-container img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/*********************************/
+/********** Apartments ***********/
+/*********************************/
+
+.apartments h1 {
+    margin-bottom: 100px;
+}
+
+.apartments .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apartments .panel {
+    width: 49%;
+    height: 320px;
+    margin-bottom: 30px;
+}
+
+.apartments .panel .text {
+    position: relative;
+    z-index: 100;
+    top: -15%;
+    left: 10%;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: white;
+}
+
+.apartments .panel img {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+}
